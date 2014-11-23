@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve calls the cached inverse, or, if it is missing, will calculate the inverse
-##of the matrix.
+##of the matrix. I found chapter 7 in 'R For Dummies' helpful in these sections.
 
 cacheSolve <- function(x, ...) {
   m<-x$getinverse()
